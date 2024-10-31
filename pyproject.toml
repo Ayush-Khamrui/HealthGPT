@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "genflow"
+version = "0.1.0"
+description = "GenAI powered Chatbot capable of doing multiple things"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+flask = "^3.0.3"
+langchain-community = "^0.3.0"
+chromadb = "^0.5.7"
+sentence-transformers = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
